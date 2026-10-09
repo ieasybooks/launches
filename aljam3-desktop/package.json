@@ -6,7 +6,8 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ieasybooks/aljam3-desktop-launch.git"
+    "url": "git+https://github.com/ieasybooks/launches.git",
+    "directory": "aljam3-desktop"
   },
   "type": "module",
   "scripts": {

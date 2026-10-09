@@ -3,9 +3,6 @@
 The Arabic launch film for [Aljam3 Desktop](https://github.com/ieasybooks/aljam3-desktop), built with
 [Remotion](https://www.remotion.dev). It is 1:45 long and renders in 16:9 and 9:16 from one timeline.
 
-**Watch / download:** [latest release](https://github.com/ieasybooks/aljam3-desktop-launch/releases/latest)
-(MP4s, Arabic SRT/VTT captions, posters).
-
 <p>
   <img src="docs/poster-16x9.jpg" height="260" alt="16:9 poster">
   <img src="docs/poster-9x16.jpg" height="260" alt="9:16 poster">
@@ -16,7 +13,8 @@ The Arabic launch film for [Aljam3 Desktop](https://github.com/ieasybooks/aljam3
 Requires Node 20+, ffmpeg and Python 3 with [uv](https://docs.astral.sh/uv/).
 
 ```sh
-npm install
+cd aljam3-desktop                                     # from the repository root
+npm ci
 npm run studio                                        # live preview
 ```
 

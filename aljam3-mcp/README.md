@@ -3,7 +3,7 @@
 The Arabic launch film for the [Aljam3 public MCP server](https://aljam3.com/mcp), which lets AI assistants
 (ChatGPT, Claude and any other MCP client) search Aljam3's books, read pages in context and cite their sources.
 It is built with [Remotion](https://www.remotion.dev), runs about one minute, and renders in 16:9 and 9:16 from one
-timeline. It follows the pipeline of [aljam3-desktop-launch](https://github.com/ieasybooks/aljam3-desktop-launch).
+timeline. It follows the pipeline of the [Aljam3 Desktop launch film](../aljam3-desktop/README.md).
 
 <p>
   <img src="docs/poster-16x9.jpg" height="260" alt="16:9 poster">
@@ -29,7 +29,8 @@ aljam3.com, captured with headless Chrome.
 Requires Node 20+, ffmpeg and Python 3 with [uv](https://docs.astral.sh/uv/).
 
 ```sh
-npm install
+cd aljam3-mcp                                         # from the repository root
+npm ci
 npm run studio                                        # live preview
 ```
 

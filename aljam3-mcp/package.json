@@ -6,7 +6,8 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ieasybooks/aljam3-mcp-launch.git"
+    "url": "git+https://github.com/ieasybooks/launches.git",
+    "directory": "aljam3-mcp"
   },
   "type": "module",
   "scripts": {

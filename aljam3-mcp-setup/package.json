@@ -1,0 +1,32 @@
+{
+  "name": "aljam3-mcp-setup",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Arabic how-to film: connecting the Aljam3 MCP server to ChatGPT and Claude (16:9)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ieasybooks/launches.git",
+    "directory": "aljam3-mcp-setup"
+  },
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "node scripts/render.mjs",
+    "stills": "node scripts/stills.mjs",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.533",
+    "@remotion/cli": "4.0.533",
+    "@remotion/paths": "4.0.533",
+    "@remotion/renderer": "4.0.533",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.533"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "typescript": "7.0.2"
+  }
+}

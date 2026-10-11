@@ -1,0 +1,754 @@
+{
+ "site-copy": {
+  "src": "clips/site-copy.mp4",
+  "fps": 30,
+  "frames": 168,
+  "duration": 5.6,
+  "width": 2560,
+  "height": 1600,
+  "spans": [
+   {
+    "a": 0.0,
+    "b": 5.6,
+    "o": 0.0
+   }
+  ],
+  "marks": [
+   {
+    "kind": "move",
+    "x": 302.4140625,
+    "y": 222.5,
+    "label": "text~=https://aljam3.com/mcp",
+    "t": 1.349
+   },
+   {
+    "kind": "move",
+    "x": 434.265625,
+    "y": 287,
+    "label": "text=نسخ رابط الاتصال",
+    "t": 2.402
+   },
+   {
+    "kind": "click",
+    "x": 434.265625,
+    "y": 287,
+    "label": "text=نسخ رابط الاتصال",
+    "t": 2.759
+   }
+  ]
+ },
+ "gpt-add": {
+  "src": "clips/gpt-add.mp4",
+  "fps": 30,
+  "frames": 1050,
+  "duration": 35.0,
+  "width": 2560,
+  "height": 1600,
+  "spans": [
+   {
+    "a": 0.0,
+    "b": 35.0,
+    "o": 0.0
+   }
+  ],
+  "marks": [
+   {
+    "kind": "move",
+    "x": 1254,
+    "y": 182,
+    "label": "",
+    "t": 1.628
+   },
+   {
+    "kind": "click",
+    "x": 1254,
+    "y": 182,
+    "label": "",
+    "t": 1.983
+   },
+   {
+    "kind": "move",
+    "x": 433.4375,
+    "y": 46,
+    "label": "text=إضافة",
+    "t": 4.701
+   },
+   {
+    "kind": "click",
+    "x": 433.4375,
+    "y": 46,
+    "label": "text=إضافة",
+    "t": 5.056
+   },
+   {
+    "kind": "move",
+    "x": 468.640625,
+    "y": 166,
+    "label": "text=إضافة خادم MCP مخصص",
+    "t": 6.893
+   },
+   {
+    "kind": "click",
+    "x": 468.640625,
+    "y": 166,
+    "label": "text=إضافة خادم MCP مخصص",
+    "t": 7.248
+   },
+   {
+    "kind": "move",
+    "x": 640,
+    "y": 254,
+    "label": "input[placeholder=\"أداة مخصصة\"]",
+    "t": 9.621
+   },
+   {
+    "kind": "click",
+    "x": 640,
+    "y": 254,
+    "label": "input[placeholder=\"أداة مخصصة\"]",
+    "t": 9.975
+   },
+   {
+    "kind": "type",
+    "text": "Aljam3",
+    "phase": "start",
+    "t": 11.027
+   },
+   {
+    "kind": "type",
+    "text": "Aljam3",
+    "phase": "end",
+    "t": 11.521
+   },
+   {
+    "kind": "move",
+    "x": 640,
+    "y": 420,
+    "label": "input[placeholder=\"https://example.com/mcp\"]",
+    "t": 12.561
+   },
+   {
+    "kind": "click",
+    "x": 640,
+    "y": 420,
+    "label": "input[placeholder=\"https://example.com/mcp\"]",
+    "t": 12.916
+   },
+   {
+    "kind": "paste",
+    "text": "https://aljam3.com/mcp",
+    "t": 14.094
+   },
+   {
+    "kind": "move",
+    "x": 640,
+    "y": 496,
+    "label": "[role=dialog] select",
+    "t": 15.459
+   },
+   {
+    "kind": "click",
+    "label": "select",
+    "t": 15.938
+   },
+   {
+    "kind": "select",
+    "label": "بدون مصادقة",
+    "t": 16.956
+   },
+   {
+    "kind": "move",
+    "x": 895,
+    "y": 633,
+    "label": "[role=dialog] button[role=checkbox]",
+    "t": 18.554
+   },
+   {
+    "kind": "click",
+    "x": 895,
+    "y": 633,
+    "label": "[role=dialog] button[role=checkbox]",
+    "t": 18.911
+   },
+   {
+    "kind": "move",
+    "x": 422,
+    "y": 708,
+    "label": "text=إنشاء كمكوّن إضافي",
+    "t": 20.713
+   },
+   {
+    "kind": "click",
+    "x": 422,
+    "y": 708,
+    "label": "text=إنشاء كمكوّن إضافي",
+    "t": 21.067
+   },
+   {
+    "kind": "click",
+    "x": 422,
+    "y": 708,
+    "label": "text=إنشاء كمكوّن إضافي",
+    "retry": true,
+    "t": 23.094
+   },
+   {
+    "kind": "click",
+    "x": 422,
+    "y": 708,
+    "label": "text=إنشاء كمكوّن إضافي",
+    "retry": true,
+    "t": 24.698
+   },
+   {
+    "kind": "click",
+    "x": 422,
+    "y": 708,
+    "label": "text=إنشاء كمكوّن إضافي",
+    "retry": true,
+    "t": 26.654
+   },
+   {
+    "kind": "click",
+    "x": 422,
+    "y": 708,
+    "label": "text=إنشاء كمكوّن إضافي",
+    "retry": true,
+    "t": 28.249
+   }
+  ]
+ },
+ "gpt-connect": {
+  "src": "clips/gpt-connect.mp4",
+  "fps": 30,
+  "frames": 222,
+  "duration": 7.4,
+  "width": 2560,
+  "height": 1600,
+  "spans": [
+   {
+    "a": 23.6,
+    "b": 31.0,
+    "o": 0.0
+   }
+  ],
+  "marks": [
+   {
+    "kind": "move",
+    "x": 640,
+    "y": 602,
+    "label": "[role=dialog] button:not([aria-label])",
+    "t": 1.108
+   },
+   {
+    "kind": "click",
+    "x": 640,
+    "y": 602,
+    "label": "[role=dialog] button:not([aria-label])",
+    "t": 1.462
+   }
+  ]
+ },
+ "gpt-chat": {
+  "src": "clips/gpt-chat.mp4",
+  "fps": 30,
+  "frames": 2061,
+  "duration": 68.7,
+  "width": 2560,
+  "height": 1600,
+  "spans": [
+   {
+    "a": 0.0,
+    "b": 53.0,
+    "o": 0.0
+   },
+   {
+    "a": 455.6,
+    "b": 461.0,
+    "o": 53.0
+   },
+   {
+    "a": 928.6,
+    "b": 934.5,
+    "o": 58.4
+   },
+   {
+    "a": 1125.6,
+    "b": 1130.0,
+    "o": 64.3
+   }
+  ],
+  "marks": [
+   {
+    "kind": "move",
+    "x": 418.0078125,
+    "y": 26,
+    "label": "text=العمل",
+    "t": 1.977
+   },
+   {
+    "kind": "click",
+    "x": 418.0078125,
+    "y": 26,
+    "label": "text=العمل",
+    "t": 2.33
+   },
+   {
+    "kind": "move",
+    "x": 470.5,
+    "y": 377,
+    "label": "[contenteditable=true]",
+    "t": 5.058
+   },
+   {
+    "kind": "click",
+    "x": 470.5,
+    "y": 377,
+    "label": "[contenteditable=true]",
+    "t": 5.412
+   },
+   {
+    "kind": "type",
+    "text": "@Alj",
+    "phase": "start",
+    "t": 6.6
+   },
+   {
+    "kind": "type",
+    "text": "@Alj",
+    "phase": "end",
+    "t": 7.07
+   },
+   {
+    "kind": "move",
+    "x": 470.5,
+    "y": 494,
+    "label": "Aljam3\nAljam3",
+    "t": 8.54
+   },
+   {
+    "kind": "click",
+    "x": 470.5,
+    "y": 494,
+    "label": "Aljam3\nAljam3",
+    "t": 8.896
+   },
+   {
+    "kind": "move",
+    "x": 470.5,
+    "y": 377,
+    "label": "[contenteditable=true]",
+    "t": 10.266
+   },
+   {
+    "kind": "type",
+    "text": "ابحث عن حديث «إنما الأعمال بالنيات» في رياض الصالحين، واذكر رقم الصفحة مع رابط المصدر.",
+    "phase": "start",
+    "t": 11.078
+   },
+   {
+    "kind": "type",
+    "text": "ابحث عن حديث «إنما الأعمال بالنيات» في رياض الصالحين، واذكر رقم الصفحة مع رابط المصدر.",
+    "phase": "end",
+    "t": 18.755
+   },
+   {
+    "kind": "key",
+    "key": "Enter",
+    "modifiers": 0,
+    "t": 20.073
+   },
+   {
+    "kind": "move",
+    "x": 811.5625,
+    "y": 227.78125,
+    "label": "text~=عمل لمدة",
+    "t": 54.79
+   },
+   {
+    "kind": "click",
+    "x": 811.5625,
+    "y": 227.78125,
+    "label": "text~=عمل لمدة",
+    "t": 55.145
+   },
+   {
+    "kind": "move",
+    "x": 156.3828125,
+    "y": 315.78125,
+    "label": "⁨Used⁩ ⁨Aljam3⁩",
+    "t": 59.722
+   },
+   {
+    "kind": "click",
+    "x": 156.3828125,
+    "y": 315.78125,
+    "label": "⁨Used⁩ ⁨Aljam3⁩",
+    "t": 60.077
+   },
+   {
+    "kind": "move",
+    "x": 761.8203125,
+    "y": 561.78125,
+    "label": "a[href*=\"aljam3.com\"]",
+    "t": 65.828
+   }
+  ]
+ },
+ "claude-add": {
+  "src": "clips/claude-add.mp4",
+  "fps": 30,
+  "frames": 1596,
+  "duration": 53.2,
+  "width": 2560,
+  "height": 1600,
+  "spans": [
+   {
+    "a": 0.0,
+    "b": 8.6,
+    "o": 0.0
+   },
+   {
+    "a": 803.6,
+    "b": 818.0,
+    "o": 8.6
+   },
+   {
+    "a": 1049.6,
+    "b": 1058.5,
+    "o": 23.0
+   },
+   {
+    "a": 1241.6,
+    "b": 1252.5,
+    "o": 31.9
+   },
+   {
+    "a": 1914.6,
+    "b": 1925.0,
+    "o": 42.8
+   }
+  ],
+  "marks": [
+   {
+    "kind": "move",
+    "x": 81.1171875,
+    "y": 270.5,
+    "label": "text=Customize",
+    "t": 2.012
+   },
+   {
+    "kind": "click",
+    "x": 81.1171875,
+    "y": 270.5,
+    "label": "text=Customize",
+    "t": 2.37
+   },
+   {
+    "kind": "move",
+    "x": 430.046875,
+    "y": 128,
+    "label": "text=Connectors",
+    "t": 5.376
+   },
+   {
+    "kind": "click",
+    "x": 430.046875,
+    "y": 128,
+    "label": "text=Connectors",
+    "t": 5.73
+   },
+   {
+    "kind": "move",
+    "x": 1194.2890625,
+    "y": 128,
+    "label": "\nAdd\n",
+    "t": 10.3
+   },
+   {
+    "kind": "click",
+    "x": 1194.2890625,
+    "y": 128,
+    "label": "\nAdd\n",
+    "t": 10.656
+   },
+   {
+    "kind": "move",
+    "x": 1150.953125,
+    "y": 170,
+    "label": "text=Add custom connector",
+    "t": 12.751
+   },
+   {
+    "kind": "click",
+    "x": 1150.953125,
+    "y": 170,
+    "label": "text=Add custom connector",
+    "t": 13.107
+   },
+   {
+    "kind": "move",
+    "x": 640,
+    "y": 303.1875,
+    "label": "input[placeholder=Name]",
+    "t": 15.853
+   },
+   {
+    "kind": "click",
+    "x": 640,
+    "y": 303.1875,
+    "label": "input[placeholder=Name]",
+    "t": 16.208
+   },
+   {
+    "kind": "type",
+    "text": "Aljam3",
+    "phase": "start",
+    "t": 17.338
+   },
+   {
+    "kind": "type",
+    "text": "Aljam3",
+    "phase": "end",
+    "t": 17.815
+   },
+   {
+    "kind": "move",
+    "x": 640,
+    "y": 377.0625,
+    "label": "input[placeholder=\"MCP server URL\"]",
+    "t": 19.166
+   },
+   {
+    "kind": "click",
+    "x": 640,
+    "y": 377.0625,
+    "label": "input[placeholder=\"MCP server URL\"]",
+    "t": 19.52
+   },
+   {
+    "kind": "paste",
+    "text": "https://aljam3.com/mcp",
+    "t": 20.678
+   },
+   {
+    "kind": "move",
+    "x": 841.1328125,
+    "y": 584.8125,
+    "label": "Continue",
+    "t": 24.45
+   },
+   {
+    "kind": "click",
+    "x": 841.1328125,
+    "y": 584.8125,
+    "label": "Continue",
+    "t": 24.803
+   },
+   {
+    "kind": "move",
+    "x": 485.4453125,
+    "y": 394.875,
+    "label": "text~=No sign-in",
+    "t": 33.725
+   },
+   {
+    "kind": "move",
+    "x": 858.2890625,
+    "y": 744.125,
+    "label": "Add",
+    "t": 36.389
+   },
+   {
+    "kind": "click",
+    "x": 858.2890625,
+    "y": 744.125,
+    "label": "Add",
+    "t": 36.743
+   },
+   {
+    "kind": "move",
+    "x": 779.9921875,
+    "y": 520.5,
+    "label": "Connect",
+    "t": 43.846
+   },
+   {
+    "kind": "click",
+    "x": 779.9921875,
+    "y": 520.5,
+    "label": "Connect",
+    "t": 44.201
+   }
+  ]
+ },
+ "claude-chat": {
+  "src": "clips/claude-chat.mp4",
+  "fps": 30,
+  "frames": 2892,
+  "duration": 96.4,
+  "width": 2560,
+  "height": 1600,
+  "spans": [
+   {
+    "a": 0.0,
+    "b": 6.6,
+    "o": 0.0
+   },
+   {
+    "a": 62.0,
+    "b": 141.0,
+    "o": 6.6
+   },
+   {
+    "a": 923.6,
+    "b": 930.0,
+    "o": 85.6
+   },
+   {
+    "a": 2375.6,
+    "b": 2380.0,
+    "o": 92.0
+   }
+  ],
+  "marks": [
+   {
+    "kind": "move",
+    "x": 484,
+    "y": 433.53125,
+    "label": "",
+    "t": 1.98
+   },
+   {
+    "kind": "click",
+    "x": 484,
+    "y": 433.53125,
+    "label": "",
+    "t": 2.335
+   },
+   {
+    "kind": "move",
+    "x": 577.8203125,
+    "y": 546.5,
+    "label": "text~=Connectors",
+    "t": 4.266
+   },
+   {
+    "kind": "move",
+    "x": 853.9296875,
+    "y": 501.5,
+    "label": "[role=switch]",
+    "t": 7.962
+   },
+   {
+    "kind": "key",
+    "key": "Escape",
+    "modifiers": 0,
+    "t": 9.665
+   },
+   {
+    "kind": "key",
+    "key": "Escape",
+    "modifiers": 0,
+    "t": 10.023
+   },
+   {
+    "kind": "move",
+    "x": 784,
+    "y": 389.03125,
+    "label": "[contenteditable=true]",
+    "t": 11.271
+   },
+   {
+    "kind": "click",
+    "x": 784,
+    "y": 389.03125,
+    "label": "[contenteditable=true]",
+    "t": 11.623
+   },
+   {
+    "kind": "type",
+    "text": "ابحث في الجامع عن حديث «إنما الأعمال بالنيات» في رياض الصالحين، واذكر رقم الصفحة مع رابط المصدر.",
+    "phase": "start",
+    "t": 12.77
+   },
+   {
+    "kind": "type",
+    "text": "ابحث في الجامع عن حديث «إنما الأعمال بالنيات» في رياض الصالحين، واذكر رقم الصفحة مع رابط المصدر.",
+    "phase": "end",
+    "t": 21.375
+   },
+   {
+    "kind": "key",
+    "key": "Enter",
+    "modifiers": 0,
+    "t": 22.71
+   },
+   {
+    "kind": "move",
+    "x": 927.59375,
+    "y": 678,
+    "label": "Always allow\n⇧\nShift\n⌘\nCommand\n⏎\nEnter",
+    "t": 65.072
+   },
+   {
+    "kind": "click",
+    "x": 927.59375,
+    "y": 678,
+    "label": "Always allow\n⇧\nShift\n⌘\nCommand\n⏎\nEnter",
+    "t": 65.433
+   },
+   {
+    "kind": "move",
+    "x": 927.59375,
+    "y": 678,
+    "label": "Always allow\n⇧\nShift\n⌘\nCommand\n⏎\nEnter",
+    "t": 70.672
+   },
+   {
+    "kind": "click",
+    "x": 927.59375,
+    "y": 678,
+    "label": "Always allow\n⇧\nShift\n⌘\nCommand\n⏎\nEnter",
+    "t": 71.026
+   },
+   {
+    "kind": "move",
+    "x": 758,
+    "y": 220,
+    "label": "Used Aljam3\n",
+    "t": 87.396
+   },
+   {
+    "kind": "click",
+    "x": 758,
+    "y": 220,
+    "label": "Used Aljam3\n",
+    "t": 87.75
+   },
+   {
+    "kind": "move",
+    "x": 874.046875,
+    "y": 532,
+    "label": "a[href*=\"aljam3.com/ar/1889\"]",
+    "t": 93.63
+   }
+  ]
+ },
+ "site-verify": {
+  "src": "clips/site-verify.mp4",
+  "fps": 30,
+  "frames": 339,
+  "duration": 11.3,
+  "width": 2560,
+  "height": 1600,
+  "spans": [
+   {
+    "a": 0.0,
+    "b": 11.3,
+    "o": 0.0
+   }
+  ],
+  "marks": []
+ }
+}

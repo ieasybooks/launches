@@ -4,9 +4,12 @@ Launch films for ieasybooks products, built with [Remotion](https://www.remotion
 
 - [Aljam3 Desktop](aljam3-desktop/README.md): the Arabic launch film for the Aljam3 desktop app.
 - [Aljam3 MCP](aljam3-mcp/README.md): the Arabic launch film for the Aljam3 public MCP server.
+- [Aljam3 MCP setup](aljam3-mcp-setup/README.md): the Arabic how-to film for connecting the MCP server to ChatGPT
+  and Claude, recorded in the real products.
 
-Both films render in 16:9 and 9:16. Each directory is a self-contained project with its own
-dependencies, scripts, narration, demo data and assets. Both original Git histories are preserved.
+The launch films render in 16:9 and 9:16, the setup film in 16:9. Each directory is a self-contained project with
+its own dependencies, scripts, narration, demo data and assets. The launch films' original Git histories are
+preserved.
 
 ## Quick start
 
@@ -15,7 +18,7 @@ Requires Node 20+, ffmpeg and Python 3 with [uv](https://docs.astral.sh/uv/).
 From the repository root, choose a film:
 
 ```sh
-cd aljam3-desktop # or aljam3-mcp
+cd aljam3-desktop # or aljam3-mcp, aljam3-mcp-setup
 npm ci
 npm run studio
 ```

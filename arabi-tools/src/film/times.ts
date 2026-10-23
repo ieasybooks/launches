@@ -1,0 +1,62 @@
+import { cue, E, S } from "../lib/timeline";
+
+// Key moments, all taken from spoken words so the picture follows the narration.
+export const T = {
+  // Hook: recordings nobody can search
+  waveIn: 0.25,
+  lesson: cue("hook1", "الدروس"),
+  lecture: cue("hook1", "المحاضرات"),
+  interview: cue("hook1", "المقابلات"),
+  trapped: cue("hook1", "حبيسة"),
+  hook2: S("hook2"),
+  search: cue("hook2", "تبحث"),
+  quote: cue("hook2", "تقتبس"),
+  hookEnd: E("hook2"),
+  // Brand
+  collapse: S("brand1") - 0.75,
+  brand1: S("brand1"),
+  name: cue("brand1", "أدوات"),
+  nameEnd: cue("brand1", "العربية", 0, "end"),
+  brand2: S("brand2"),
+  simple: cue("brand2", "بسيطة"),
+  free0: cue("brand2", "ومجانية"),
+  everyone: cue("brand2", "لكل"),
+  brandEnd: E("brand2"),
+  // The first tool
+  tool: S("tool"),
+  first: cue("tool", "أولها"),
+  toolName: cue("tool", "تفريغ"),
+  toText: cue("tool", "إلى"),
+  toolEnd: E("tool"),
+  // Upload, transcribe, download
+  upload: S("upload"),
+  raise: cue("upload", "إرفع"),
+  yours: cue("upload", "تسجيلك", 0, "end"),
+  mp3: cue("upload", "MP3"),
+  m4a: cue("upload", "M4A"),
+  hours: cue("upload", "ثلاث"),
+  uploadEnd: E("upload"),
+  download: S("download"),
+  txt: cue("download", "النص"),
+  srt: cue("download", "ترجمة"),
+  videos: cue("download", "لفيديوهاتك"),
+  downloadEnd: E("download"),
+  // Free and private
+  free: S("free"),
+  freeWord: cue("free", "مجانا"),
+  account: cue("free", "حساب"),
+  install: cue("free", "تثبيت"),
+  privacy: S("privacy"),
+  remove: cue("privacy", "نحذف"),
+  ends: cue("privacy", "انتهاء"),
+  privacyEnd: E("privacy"),
+  // More tools, then the end card
+  more: S("more"),
+  start: cue("more", "البداية"),
+  moreTools: cue("more", "فالمزيد"),
+  way: cue("more", "الطريق"),
+  moreEnd: E("more"),
+  outro: S("outro"),
+  tryIt: cue("outro", "جربها"),
+  outroEnd: E("outro"),
+};

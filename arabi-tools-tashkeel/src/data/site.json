@@ -1,0 +1,95 @@
+{
+  "hadith-shakkelha": {
+    "id": "hadith-shakkelha",
+    "model": "shakkelha",
+    "source": "https://arabi.tools/diacritize",
+    "capturedAt": "2026-10-26T18:50:22.284Z",
+    "secondsToDone": 0.37,
+    "states": [
+      {
+        "ms": 78,
+        "state": "submitting"
+      },
+      {
+        "ms": 370,
+        "state": "done اكتمل التشكيل."
+      }
+    ],
+    "input": "من سلك طريقا يلتمس فيه علما سهل الله له به طريقا إلى الجنة",
+    "output": "مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا سَهَّلَ اللَّهُ لَهُ بِهِ طَرِيقًا إلَى الْجَنَّةِ",
+    "download": {
+      "file": "hadith-shakkelha-result.txt",
+      "suggestedName": "text.txt",
+      "bytes": 180,
+      "sha256": "2c22772e99b6a39e6ff6acd2593f160a21e074677577b8a8abe6345777f6d9f9"
+    },
+    "downloadMatchesTextarea": true
+  },
+  "hadith-catt": {
+    "id": "hadith-catt",
+    "model": "catt",
+    "source": "https://arabi.tools/diacritize",
+    "capturedAt": "2026-10-26T18:50:24.450Z",
+    "secondsToDone": 0.86,
+    "states": [
+      {
+        "ms": 75,
+        "state": "submitting"
+      },
+      {
+        "ms": 355,
+        "state": "running جارٍ التشكيل… 0٪"
+      },
+      {
+        "ms": 860,
+        "state": "done اكتمل التشكيل."
+      }
+    ],
+    "input": "من سلك طريقا يلتمس فيه علما سهل الله له به طريقا إلى الجنة",
+    "output": "مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا سَهَّلَ اللَّهُ لَهُ بِهِ طَرِيقًا إلَى الْجَنَّةِ",
+    "download": {
+      "file": "hadith-catt-result.txt",
+      "suggestedName": "text.txt",
+      "bytes": 180,
+      "sha256": "2c22772e99b6a39e6ff6acd2593f160a21e074677577b8a8abe6345777f6d9f9"
+    },
+    "downloadMatchesTextarea": true
+  },
+  "lesson-catt": {
+    "id": "lesson-catt",
+    "model": "catt",
+    "source": "https://arabi.tools/diacritize",
+    "capturedAt": "2026-10-26T19:04:18.874Z",
+    "secondsToDone": 1.192,
+    "states": [
+      {
+        "ms": 119,
+        "state": "submitting"
+      },
+      {
+        "ms": 422,
+        "state": "navigating"
+      },
+      {
+        "ms": 684,
+        "state": "running جارٍ التشكيل… 0٪"
+      },
+      {
+        "ms": 937,
+        "state": "running جارٍ التشكيل… 66٪"
+      },
+      {
+        "ms": 1192,
+        "state": "done اكتمل التشكيل."
+      }
+    ],
+    "input": "src/data/فضل-العلم.docx",
+    "inputSha256": "4d8f860480cc7c5e70b5f04ed2d2c4460e1b831c15665f7ffe47b265197c8308",
+    "download": {
+      "file": "lesson-catt-result.docx",
+      "suggestedName": "فضل-العلم.docx",
+      "bytes": 37076,
+      "sha256": "f8c49f7329954edea8bbcfe4087935d1d94a7460e3bbbb10d46eb0c2a9717202"
+    }
+  }
+}

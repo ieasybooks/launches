@@ -1,0 +1,51 @@
+import {DURATION,ORDER} from '../lib/timeline';
+import {DOC_GO,DROP_AT,RESET_AT,RESULT_AT} from './scenes/Site';
+import {T} from './times';
+// The predecessors' quiet, non-musical air, paper and UI sounds.
+type Sfx={t:number;name:string;vol:number;fadeOut?:number};
+export const FILM_SFX:Sfx[]=[
+  {t:0,name:'air_bed',vol:.08,fadeOut:DURATION},
+  {t:T.word-.05,name:'pop',vol:.14},
+  {t:T.noMarks,name:'pop',vol:.08},
+  {t:T.readings-.25,name:'whoosh',vol:.11},
+  ...[0,1,2,3].map(i=>({t:T.readings+.05+i*.24,name:'pop',vol:.07})),
+  {t:T.hook2-.25,name:'paper',vol:.22},
+  {t:T.book,name:'paper',vol:.16},
+  {t:T.book+.12,name:'paper',vol:.12},
+  {t:T.collapse-.9,name:'whoosh_long',vol:.13},
+  {t:T.collapse+.2,name:'impact',vol:.25},
+  {t:T.name-.2,name:'whoosh',vol:.12},
+  {t:T.newTool-.12,name:'pop',vol:.2},
+  {t:T.tool-.4,name:'whoosh',vol:.13},
+  {t:T.toText-.15,name:'dissolve',vol:.16},
+  {t:T.paste-.6,name:'whoosh',vol:.15},
+  {t:T.write+.45,name:'ui_click',vol:.3},
+  {t:T.pasted,name:'pop',vol:.14},
+  {t:T.shakkelha-.05,name:'pop',vol:.07},
+  {t:T.catt+.02,name:'ui_click',vol:.35},
+  {t:T.go,name:'ui_click',vol:.35},
+  {t:RESULT_AT,name:'pop',vol:.16},
+  {t:T.marked-.3,name:'dissolve',vol:.12},
+  {t:RESET_AT,name:'slide',vol:.14},
+  {t:T.upload+.07,name:'ui_click',vol:.32},
+  {t:T.txt-.2,name:'slide',vol:.22},
+  {t:DROP_AT,name:'drop',vol:.4},
+  {t:DOC_GO,name:'ui_click',vol:.35},
+  {t:T.download+.04,name:'pop',vol:.16},
+  {t:T.download+.38,name:'ui_click',vol:.35},
+  {t:T.same-.2,name:'paper',vol:.22},
+  {t:T.same,name:'dissolve',vol:.1},
+  {t:T.free-.5,name:'whoosh',vol:.17},
+  {t:T.freeWord-.12,name:'pop',vol:.18},
+  {t:T.account-.1,name:'pop',vol:.11},
+  {t:T.install-.1,name:'pop',vol:.11},
+  {t:T.privacy-.4,name:'slide',vol:.2},
+  {t:T.remove+.05,name:'dissolve',vol:.3},
+  {t:T.remove+.8,name:'pop',vol:.12},
+  {t:T.outro-.55,name:'whoosh_long',vol:.15},
+  {t:T.outro-.4,name:'impact',vol:.24},
+  {t:T.tryIt-.2,name:'pop',vol:.15},
+  {t:T.tryIt+.45,name:'ui_click',vol:.28},
+];
+export const SFX_LEN:Record<string,number>={air_bed:80,whoosh:1,whoosh_long:1.8,pop:.5,slide:.7,denied:.6,air_riser:2.4,impact:3,drop:.6,paper:.8,dissolve:1.4,ui_click:.12,key0:.09,key1:.09,key2:.09,key3:.09};
+export const SOUND_EVENTS=[...ORDER.map(c=>({t:c.start,file:`audio/vo/${c.id}.wav`,vol:1})),...FILM_SFX.map(e=>({t:e.t,file:`audio/sfx/${e.name}.wav`,vol:e.vol,fadeOut:e.fadeOut}))];

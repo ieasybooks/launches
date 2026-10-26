@@ -1,0 +1,187 @@
+{
+  "method": "Prepared WAVs checked with ElevenLabs Scribe v1 STT, cached wav2vec2-xlsr-53-espeak-cv-ft phoneme recognition, and a 10 ms RMS pause analysis. Phoneme model is imperfect; the recorded strings are evidence, not a human listening certificate.",
+  "paceDefinition": "Whitespace-delimited script words divided by first-to-last audible speech span (includes internal clause pauses; excludes leading/trailing silence).",
+  "weightedWordsPerSecond": 2.01,
+  "clips": [
+    {
+      "id": "hook1",
+      "seed": 1408,
+      "duration": 4.498,
+      "words": 8,
+      "speechSpanSeconds": 4.14,
+      "wordsPerSecond": 1.93,
+      "leadSeconds": 0.05,
+      "tailSeconds": 0.308,
+      "pauses": [
+        {
+          "start": 2.18,
+          "end": 2.45,
+          "seconds": 0.27,
+          "near": "َاحِدَةٌ بِلَا تَشْكِيلْ | ، تَحْتَمِلُ أَكْثَرَ مِ"
+        }
+      ],
+      "stt": "كلمة واحدة بلا تشكيل تحتمل أكثر من قراءة",
+      "phonemes": "k a l i m a t u n w a h i d a t u n b i l aː t a ʃ k iː l t a ħ t a m i l u a k θ e r a m i n q i r a a",
+      "sha256": "bae90317af6d405ef87eb8e0c24ab81bd23a9d7d4da668ad8cb23cd7881ecec3"
+    },
+    {
+      "id": "hook2",
+      "seed": 1408,
+      "duration": 1.628,
+      "words": 3,
+      "speechSpanSeconds": 1.49,
+      "wordsPerSecond": 2.01,
+      "leadSeconds": 0.05,
+      "tailSeconds": 0.088,
+      "pauses": [],
+      "stt": "فكيف بكتاب كامل؟",
+      "phonemes": "f a k aɪ f a b i k i t aː b i n k aː m i l",
+      "sha256": "ebc87f10fb2a0923c5aaa6922c7facd54c8a481b1a7e45f755b957ce20d4b8dc"
+    },
+    {
+      "id": "brand",
+      "seed": 1409,
+      "duration": 3.97,
+      "words": 7,
+      "speechSpanSeconds": 3.62,
+      "wordsPerSecond": 1.93,
+      "leadSeconds": 0.05,
+      "tailSeconds": 0.3,
+      "pauses": [],
+      "stt": "لذلك أضفنا إلى أدوات العربية أداة جديدة",
+      "phonemes": "l i ð aː l i k a l o f n a i l a a d a w a t i l a r a b iː j a t i a d aː t a n dʒ a d i d a",
+      "sha256": "a637e7d335eae825c905fc6f8f26e5a1e5d37a094ad685d427fce0ceae6238e3"
+    },
+    {
+      "id": "tool",
+      "seed": 1408,
+      "duration": 1.74,
+      "words": 3,
+      "speechSpanSeconds": 1.35,
+      "wordsPerSecond": 2.22,
+      "leadSeconds": 0.05,
+      "tailSeconds": 0.34,
+      "pauses": [],
+      "stt": "تشكيل النص العربي",
+      "phonemes": "t a ʃ k iː l u n a s i l aː r a b iː",
+      "sha256": "4d69d22c6211af79d2286cafb12d177c62cc3e1de22e04ed0e32716da6680f99"
+    },
+    {
+      "id": "paste",
+      "seed": 1408,
+      "duration": 5.448,
+      "words": 10,
+      "speechSpanSeconds": 5.1,
+      "wordsPerSecond": 1.96,
+      "leadSeconds": 0.05,
+      "tailSeconds": 0.298,
+      "pauses": [
+        {
+          "start": 1.84,
+          "end": 2.11,
+          "seconds": 0.27,
+          "near": "نَصَّكَ أَوْ أَلْصِقْهُ، |  وَاخْتَرْ نَمُوذَجَ الت"
+        },
+        {
+          "start": 3.69,
+          "end": 3.96,
+          "seconds": 0.27,
+          "near": "ْ نَمُوذَجَ التَّشْكِيلْ | : شَكِّلْهَا أَوْ كَاتْ."
+        }
+      ],
+      "stt": "اكتب نصك أو ألصقه، واختر نموذج التشكيل، شكلها أو Cat",
+      "phonemes": "o k t o b n a s s a k a aʊ a l z i q u h u w a x t a r n a m u ð a dʒ a t e ʃ k i l ʃ a k i l h a a k aː t",
+      "sha256": "3f87bbfbddf149dfcb445ea3da0c9aebcc9b1ea0756a1bda72635a0eaa98bb54"
+    },
+    {
+      "id": "result",
+      "seed": 1409,
+      "duration": 2.65,
+      "words": 5,
+      "speechSpanSeconds": 2.3,
+      "wordsPerSecond": 2.17,
+      "leadSeconds": 0.05,
+      "tailSeconds": 0.3,
+      "pauses": [],
+      "stt": "فيعود إليك مشكلاً في لحظات.",
+      "phonemes": "f a j a ʕ uː d uː i l a k a m u ʃ a k a l n f iː l ħ a v aː t",
+      "sha256": "93463f058cdd6691918d43b81ee03b3280202f3f150a960763e0fd09ab94f466"
+    },
+    {
+      "id": "document",
+      "seed": 1408,
+      "duration": 5.33,
+      "words": 10,
+      "speechSpanSeconds": 4.97,
+      "wordsPerSecond": 2.01,
+      "leadSeconds": 0.05,
+      "tailSeconds": 0.31,
+      "pauses": [
+        {
+          "start": 2.73,
+          "end": 3.01,
+          "seconds": 0.28,
+          "near": "ًّا أَوْ مُسْتَنَدَ Word | ، وَنَزِّلْهُ بِصِيغَتِه"
+        },
+        {
+          "start": 4.83,
+          "end": 5.01,
+          "seconds": 0.18,
+          "near": "هُ بِصِيغَتِهِ نَفْسِهَا | ."
+        }
+      ],
+      "stt": "أو ارفع ملفًا نصيًا أو مستند Word ونزله بصيغته نفسها.",
+      "phonemes": "a w i r f a m a l e f a n n a s s iː a n m u s t a n a d e w o d w a n a z i l h u b i s iː r a t iː h iː n a f s i h a",
+      "sha256": "f20e8c9051c4bbf22d906b190fcb67e760aa46d15fbf476b606f9ff3aa26e4e0"
+    },
+    {
+      "id": "free",
+      "seed": 1408,
+      "duration": 3.39,
+      "words": 7,
+      "speechSpanSeconds": 3.04,
+      "wordsPerSecond": 2.3,
+      "leadSeconds": 0.05,
+      "tailSeconds": 0.3,
+      "pauses": [],
+      "stt": "وكل ذلك مجانًا بلا حساب ولا تثبيت",
+      "phonemes": "w a k u l l u ð a l i k a m a dʒ aː n a n b i l a h i s a b i n w a l a t e θ b iː t",
+      "sha256": "59587e35978b01bc413c72fc9e47750fc00fc011458f5c12e437b63572a9b278"
+    },
+    {
+      "id": "privacy",
+      "seed": 1410,
+      "duration": 3.2,
+      "words": 6,
+      "speechSpanSeconds": 2.87,
+      "wordsPerSecond": 2.09,
+      "leadSeconds": 0.03,
+      "tailSeconds": 0.3,
+      "pauses": [],
+      "stt": "ونحذف الأصل والنتيجة بعد نصف ساعة",
+      "phonemes": "w a n a ħ ð i f o l a s l a w a n a t iː dʒ a t a b a d a n i s f i s aː ɹ a",
+      "sha256": "2442edcdcf9a1566d4c8a994d715fb390e0cc5b869d61acc4b9376f67976fbfa"
+    },
+    {
+      "id": "outro",
+      "seed": 1408,
+      "duration": 2.75,
+      "words": 4,
+      "speechSpanSeconds": 2.4,
+      "wordsPerSecond": 1.67,
+      "leadSeconds": 0.05,
+      "tailSeconds": 0.3,
+      "pauses": [
+        {
+          "start": 1.27,
+          "end": 1.49,
+          "seconds": 0.22,
+          "near": "أَدَوَاتُ الْعَرَبِيَّةْ | ، جَرِّبْهَا الْآنْ."
+        }
+      ],
+      "stt": "أدوات العربية، جربها الآن",
+      "phonemes": "a d a w a t u l aː r a b i a dʒ a r i b h a l a n",
+      "sha256": "d618239003f6ccb2c900ec39c97a6b68a6be0f523f3509b392b6e6e54e93e261"
+    }
+  ]
+}

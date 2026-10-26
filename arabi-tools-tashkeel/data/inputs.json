@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hadith-shakkelha",
+    "model": "shakkelha",
+    "text": "من سلك طريقا يلتمس فيه علما سهل الله له به طريقا إلى الجنة"
+  },
+  {
+    "id": "hadith-catt",
+    "model": "catt",
+    "text": "من سلك طريقا يلتمس فيه علما سهل الله له به طريقا إلى الجنة"
+  },
+  {
+    "id": "lesson-catt",
+    "model": "catt",
+    "file": "src/data/فضل-العلم.docx"
+  }
+]

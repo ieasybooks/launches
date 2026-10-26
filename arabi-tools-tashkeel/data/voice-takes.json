@@ -1,0 +1,102 @@
+{
+  "voice": {
+    "id": "F2jHHIMyJTh1pdwoLzNQ",
+    "name": "Rawi – Calm & Clear Fusha Narrator (ElevenLabs library, ar-SA)",
+    "model": "eleven_multilingual_v2",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.0,
+      "use_speaker_boost": true,
+      "speed": 1.1
+    },
+    "seed": 1408
+  },
+  "clips": [
+    {
+      "id": "hook1",
+      "seed": 1408,
+      "rawSha256": "f898af8a5b583409e98d7d3ba9ad4231fcce219733531f5cefca4d7ce6ea3571",
+      "preparedSha256": "bae90317af6d405ef87eb8e0c24ab81bd23a9d7d4da668ad8cb23cd7881ecec3"
+    },
+    {
+      "id": "hook2",
+      "seed": 1408,
+      "rawSha256": "6ae2621e99f1e253428f91ef99d97b04d44b55caa90d7e03b6e7ee307fa4debf",
+      "preparedSha256": "ebc87f10fb2a0923c5aaa6922c7facd54c8a481b1a7e45f755b957ce20d4b8dc"
+    },
+    {
+      "id": "brand",
+      "seed": 1409,
+      "rawSha256": "7768ab52ac6da080c03e7a93e7e1ef7d954ed6a11d976d1987ebf6757aec1e52",
+      "preparedSha256": "a637e7d335eae825c905fc6f8f26e5a1e5d37a094ad685d427fce0ceae6238e3",
+      "reusedFrom": "../arabi-tools-ocr/audio/vo/brand.mp3"
+    },
+    {
+      "id": "tool",
+      "seed": 1408,
+      "rawSha256": "57e52cab255a99ba4696b5d3ed643e73c83f210ff6b9a62d048678217c662843",
+      "preparedSha256": "4d69d22c6211af79d2286cafb12d177c62cc3e1de22e04ed0e32716da6680f99"
+    },
+    {
+      "id": "paste",
+      "seed": 1408,
+      "rawSha256": "b6c78c13051ff1a5630474e4b790c212bb825711d919c60d5e881f049349ca6c",
+      "preparedSha256": "3f87bbfbddf149dfcb445ea3da0c9aebcc9b1ea0756a1bda72635a0eaa98bb54"
+    },
+    {
+      "id": "result",
+      "seed": 1409,
+      "rawSha256": "e40dc1ed0a41ada4b5fa33cdaa6571eb10321c689b06f5911eae13ec2248e12e",
+      "preparedSha256": "93463f058cdd6691918d43b81ee03b3280202f3f150a960763e0fd09ab94f466"
+    },
+    {
+      "id": "document",
+      "seed": 1408,
+      "rawSha256": "039558329fac848d49685e082c7c420ffaaad9a932e188980443af57552d2997",
+      "preparedSha256": "f20e8c9051c4bbf22d906b190fcb67e760aa46d15fbf476b606f9ff3aa26e4e0"
+    },
+    {
+      "id": "free",
+      "seed": 1408,
+      "rawSha256": "041210580c16afa29d6458fceb8a2723fc3a95c4da54e000b55025ecbae61bdd",
+      "preparedSha256": "59587e35978b01bc413c72fc9e47750fc00fc011458f5c12e437b63572a9b278",
+      "reusedFrom": "../arabi-tools-ocr/audio/vo/free.mp3"
+    },
+    {
+      "id": "privacy",
+      "seed": 1410,
+      "rawSha256": "d303259763053b897d7781e6b4ad658b125babad4ffdac3c5bf81298ffec3217",
+      "preparedSha256": "2442edcdcf9a1566d4c8a994d715fb390e0cc5b869d61acc4b9376f67976fbfa"
+    },
+    {
+      "id": "outro",
+      "seed": 1408,
+      "rawSha256": "aa63a4b297b9dbfeadce303cf0ebed5f3f9a2038cfc0739d7df80dff8b9a2fa5",
+      "preparedSha256": "d618239003f6ccb2c900ec39c97a6b68a6be0f523f3509b392b6e6e54e93e261",
+      "reusedFrom": "../arabi-tools-ocr/audio/vo/outro.mp3"
+    }
+  ],
+  "rejected": [
+    {
+      "id": "result",
+      "seed": 1408,
+      "reason": "Whole-clip phoneme output had no clear vowel before the tanween /n/ in مُشَكَّلًا (/muʃakkal n/). Seed 1409 decodes as /muʃakelən/."
+    },
+    {
+      "id": "result",
+      "seed": 1410,
+      "reason": "Equivalent to 1409 on the word segment, but the whole-clip decode dropped the vowel after the doubled k (/muʃaklən/)."
+    },
+    {
+      "id": "privacy",
+      "seed": 1408,
+      "reason": "Phoneme output lost the /a/ after the article in الْأَصْلَ (/lsla/)."
+    },
+    {
+      "id": "privacy",
+      "seed": 1409,
+      "reason": "Phoneme output ended الْأَصْلَ with a rounded vowel (/lasl ɔ/); seed 1410 has a clear /lasla/."
+    }
+  ]
+}

@@ -8,6 +8,8 @@ Launch films for ieasybooks products, built with [Remotion](https://www.remotion
   and Claude, recorded in the real products.
 - [arabi.tools](arabi-tools/README.md): the Arabic motion-graphics launch film for arabi.tools (أدوات العربية),
   free tools for the Arabic language.
+- [arabi.tools OCR](arabi-tools-ocr/README.md): the sequel for استخراج النص من الصور, with real classical-book OCR
+  output, Arabic narration, and both aspect ratios.
 
 The launch films render in 16:9 and 9:16, the setup film in 16:9. Each directory is a self-contained project with
 its own dependencies, scripts, narration, demo data and assets. The launch films' original Git histories are
@@ -20,7 +22,7 @@ Requires Node 20+, ffmpeg and Python 3 with [uv](https://docs.astral.sh/uv/).
 From the repository root, choose a film:
 
 ```sh
-cd aljam3-desktop # or aljam3-mcp, aljam3-mcp-setup, arabi-tools
+cd aljam3-desktop # or aljam3-mcp, aljam3-mcp-setup, arabi-tools, arabi-tools-ocr
 npm ci
 npm run studio
 ```

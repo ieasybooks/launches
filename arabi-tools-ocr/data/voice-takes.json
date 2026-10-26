@@ -1,0 +1,99 @@
+{
+  "voice": {
+    "id": "F2jHHIMyJTh1pdwoLzNQ",
+    "name": "Rawi – Calm & Clear Fusha Narrator (ElevenLabs library, ar-SA)",
+    "model": "eleven_multilingual_v2",
+    "settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.0,
+      "use_speaker_boost": true,
+      "speed": 1.1
+    },
+    "seed": 1408
+  },
+  "clips": [
+    {
+      "id": "hook1",
+      "seed": 1408,
+      "rawSha256": "23315be767c55710da0033e64c1eca6341ccf6312dfdffc6eb595f708af3b0f9",
+      "preparedSha256": "9dea1ef14be40438075fb928dab7d3cb6e5e5e102fd987b502803409f9471d4d"
+    },
+    {
+      "id": "hook2",
+      "seed": 1408,
+      "rawSha256": "640949bab9676ef3e3e078c03d55964a02e5da5f7d246148980b81f8f7754a17",
+      "preparedSha256": "283c2a192bddd2886fe82234a076d3b5fc903702ba8f2330d7bc04a0876e05a0"
+    },
+    {
+      "id": "brand",
+      "seed": 1409,
+      "rawSha256": "7768ab52ac6da080c03e7a93e7e1ef7d954ed6a11d976d1987ebf6757aec1e52",
+      "preparedSha256": "a637e7d335eae825c905fc6f8f26e5a1e5d37a094ad685d427fce0ceae6238e3"
+    },
+    {
+      "id": "tool",
+      "seed": 1408,
+      "rawSha256": "5830f8798631884805b52a57b737c10d472c4e94db55d88ba49d0cf8c875a333",
+      "preparedSha256": "99e4c46658ebc6cc90e747eb063815b8fd5cf1d73be570bc7629486df21cf035"
+    },
+    {
+      "id": "upload",
+      "seed": 1408,
+      "rawSha256": "e42759f14ca7c9f48f81fea2396df7b6a540bf9d7619dcbb13330868e86c7774",
+      "preparedSha256": "4ff99d8d5266c3fb00c1676941ab42c1079b777baabd52bce298b415a6f6bf8a"
+    },
+    {
+      "id": "extract",
+      "seed": 1408,
+      "rawSha256": "7dc2f9090ee2b668d2f450e77aaeaff5e42531b9c00333a449b495ba33aba0af",
+      "preparedSha256": "093099b0be9fb78491e58af7c484c2ffd4ce75b8ef68152c3db6afcd3ddeebda"
+    },
+    {
+      "id": "download",
+      "seed": 1409,
+      "rawSha256": "23460913cb1fff1dce275d95b37990bccb070039fffa75eea56a982e00b965c5",
+      "preparedSha256": "dce6e1e938df7e7e789c0924769dc55f163ea687ad2beaf9bb19b7ee60aeb2d0"
+    },
+    {
+      "id": "free",
+      "seed": 1408,
+      "rawSha256": "041210580c16afa29d6458fceb8a2723fc3a95c4da54e000b55025ecbae61bdd",
+      "preparedSha256": "59587e35978b01bc413c72fc9e47750fc00fc011458f5c12e437b63572a9b278"
+    },
+    {
+      "id": "privacy",
+      "seed": 1410,
+      "rawSha256": "024f4b657234b4f81a47ea908788fb255fcf0206897edc769e821d2bc43dec1e",
+      "preparedSha256": "e13c67b6c25e0ca6d3482f64907c91c60b0c5bdd41cf79474a909bf6c6280044"
+    },
+    {
+      "id": "outro",
+      "seed": 1408,
+      "rawSha256": "aa63a4b297b9dbfeadce303cf0ebed5f3f9a2038cfc0739d7df80dff8b9a2fa5",
+      "preparedSha256": "d618239003f6ccb2c900ec39c97a6b68a6be0f523f3509b392b6e6e54e93e261"
+    }
+  ],
+  "rejected": [
+    {
+      "id": "download",
+      "seed": 1408,
+      "reason": "Phoneme output contained an extra syllable in ملفًا; regenerated for a clearer /malafan/."
+    },
+    {
+      "id": "privacy",
+      "seed": 1408,
+      "reason": "Phoneme output did not clearly retain the final /a/ in ملفك."
+    },
+    {
+      "id": "privacy",
+      "seed": 1409,
+      "reason": "Phoneme output still did not clearly retain /ka/ and suggested a vowel after the final stop."
+    },
+    {
+      "id": "brand",
+      "seed": 1408,
+      "reason": "Tanween /n/ in أداةً was not consistently detected in the final normalized clip. Seed 1409 has a clear /a d aː t a n/ sequence."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "https://arabi.tools/ocr",
+  "input": "تاريخ-الطبري.pdf",
+  "extractedAt": "2026-10-26T00:00:51.813Z",
+  "downloads": [
+    {
+      "format": "txt",
+      "file": "ocr.txt",
+      "downloadName": "تاريخ-الطبري.txt",
+      "bytes": 3850,
+      "sha256": "60edf1a18edcd7d28b006f3e7a85a4e204dec625fdb1c0be176a4b6ca88776e8"
+    },
+    {
+      "format": "docx",
+      "file": "ocr.docx",
+      "downloadName": "تاريخ-الطبري.docx",
+      "bytes": 3911,
+      "sha256": "f59a3704d410d920b5c8e0efaf221f95e3c3b3a7c44421598f9f307325e7858d"
+    },
+    {
+      "format": "json",
+      "file": "ocr.json",
+      "downloadName": "تاريخ-الطبري.json",
+      "bytes": 3974,
+      "sha256": "45e77c0e2fa413e2964f25e9b8a30f1dd8f6455267a09f1d32c66d250de582ae"
+    }
+  ],
+  "note": "Unedited downloads from a real browser upload on the live site. The film displays literal excerpts from ocr.json."
+}

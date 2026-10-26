@@ -1,0 +1,232 @@
+{
+  "method": "Prepared WAVs checked with ElevenLabs Scribe v1 STT, cached wav2vec2-xlsr-53-espeak-cv-ft phoneme recognition, and a 10 ms RMS pause analysis. Phoneme model is imperfect; the recorded strings are evidence, not a human listening certificate.",
+  "paceDefinition": "Whitespace-delimited script words divided by first-to-last audible speech span (includes internal clause pauses; excludes leading/trailing silence).",
+  "weightedWordsPerSecond": 2.03,
+  "clips": [
+    {
+      "id": "hook1",
+      "seed": 1408,
+      "duration": 4.13,
+      "words": 6,
+      "speechSpanSeconds": 3.8,
+      "wordsPerSecond": 1.58,
+      "leadSeconds": 0.02,
+      "tailSeconds": 0.31,
+      "pauses": [
+        {
+          "start": 1.57,
+          "end": 1.9,
+          "seconds": 0.33,
+          "near": "الْكُتُبِ الْمُصَوَّرَةْ | ، نُصُوصُهَا حَبِيسَةُ ا"
+        }
+      ],
+      "stt": "آلاف الكتب المصورة نصوصها حبيسة الصور",
+      "phonemes": "a l a f u l k u t u b i l m o s a w a r a n o s u s u h a h a b iː s a t u s u a r",
+      "sha256": "9dea1ef14be40438075fb928dab7d3cb6e5e5e102fd987b502803409f9471d4d",
+      "review": {
+        "tanween": "None in the approved line.",
+        "caseEndings": "/a l a f u/; /k u t u b i/; /h a b iː s a t u/.",
+        "waqf": "المصوّرةْ at the comma; الصورْ at the end; no added case vowel."
+      }
+    },
+    {
+      "id": "hook2",
+      "seed": 1408,
+      "duration": 3.87,
+      "words": 9,
+      "speechSpanSeconds": 3.55,
+      "wordsPerSecond": 2.54,
+      "leadSeconds": 0.02,
+      "tailSeconds": 0.3,
+      "pauses": [
+        {
+          "start": 1.86,
+          "end": 2.13,
+          "seconds": 0.27,
+          "near": "ِنُ أَنْ تَبْحَثَ فِيهَا | ، وَلَا أَنْ تَنْسَخَ مِ"
+        }
+      ],
+      "stt": "لا يمكن أن تبحث فيها ولا أن تنسخ منها",
+      "phonemes": "l a j u m k i n u a n t a b h a θ a f iː h a w a l a a n t a n ts a x a m i n h a",
+      "sha256": "283c2a192bddd2886fe82234a076d3b5fc903702ba8f2330d7bc04a0876e05a0",
+      "review": {
+        "tanween": "None.",
+        "caseEndings": "/j u m k i n u/, /t a b h a θ a/, /t a n ts a x a/.",
+        "waqf": "Real clause pause after فيها; final منها ends on its written long vowel."
+      }
+    },
+    {
+      "id": "brand",
+      "seed": 1409,
+      "duration": 3.97,
+      "words": 7,
+      "speechSpanSeconds": 3.62,
+      "wordsPerSecond": 1.93,
+      "leadSeconds": 0.05,
+      "tailSeconds": 0.3,
+      "pauses": [],
+      "stt": "لذلك أضفنا إلى أدوات العربية أداة جديدة",
+      "phonemes": "l i ð aː l i k a l o f n a i l a a d a w a t i l a r a b iː j a t i a d aː t a n dʒ a d i d a",
+      "sha256": "a637e7d335eae825c905fc6f8f26e5a1e5d37a094ad685d427fce0ceae6238e3",
+      "review": {
+        "tanween": "أداةً: /a d aː t a n/ before جديدة.",
+        "caseEndings": "أدواتِ /w a t i/; العربيةِ /j a t i/.",
+        "waqf": "جديدةْ ends as /dʒ a d i d a/, without -tun/-tin."
+      }
+    },
+    {
+      "id": "tool",
+      "seed": 1408,
+      "duration": 2.1,
+      "words": 4,
+      "speechSpanSeconds": 1.72,
+      "wordsPerSecond": 2.33,
+      "leadSeconds": 0.05,
+      "tailSeconds": 0.33,
+      "pauses": [],
+      "stt": "استخراج النص من الصور",
+      "phonemes": "i s t i x r a dʒ u n a s i m i n a s o a r",
+      "sha256": "99e4c46658ebc6cc90e747eb063815b8fd5cf1d73be570bc7629486df21cf035",
+      "review": {
+        "tanween": "None.",
+        "caseEndings": "استخراجُ /dʒ u/; النصِّ /s i/; منَ /m i n a/.",
+        "waqf": "الصورْ ends in /r/."
+      }
+    },
+    {
+      "id": "upload",
+      "seed": 1408,
+      "duration": 3.91,
+      "words": 8,
+      "speechSpanSeconds": 3.56,
+      "wordsPerSecond": 2.25,
+      "leadSeconds": 0.05,
+      "tailSeconds": 0.3,
+      "pauses": [
+        {
+          "start": 2.11,
+          "end": 2.4,
+          "seconds": 0.29,
+          "near": "مَلَفَّ PDF أَوْ صُورَةْ | ، حَتَّى أَلْفِ صَفْحَةْ"
+        }
+      ],
+      "stt": "ارفع ملف PDF أو صورة حتى 1000 صفحة",
+      "phonemes": "i r f a m a l e f e p i d i e f aʊ s u r a h a t e a l f i s a f h a",
+      "sha256": "4ff99d8d5266c3fb00c1676941ab42c1079b777baabd52bce298b415a6f6bf8a",
+      "review": {
+        "tanween": "None.",
+        "caseEndings": "ملفَّ has a final short vowel (recognizer /e/); ألفِ /a l f i/.",
+        "waqf": "Pause after صورةْ; final صفحةْ has no case suffix. PDF: /p i d i e f/."
+      }
+    },
+    {
+      "id": "extract",
+      "seed": 1408,
+      "duration": 4.078,
+      "words": 7,
+      "speechSpanSeconds": 3.71,
+      "wordsPerSecond": 1.89,
+      "leadSeconds": 0.06,
+      "tailSeconds": 0.308,
+      "pauses": [
+        {
+          "start": 1.8,
+          "end": 2.09,
+          "seconds": 0.29,
+          "near": "رِجُ نَصَّ كُلِّ صَفْحَة | ْ، بِالْعَرَبِيَّةِ أَوْ"
+        }
+      ],
+      "stt": "فنستخرج نص كل صفحة بالعربية أو بغيرها",
+      "phonemes": "f a n a s t e x r i dʒ u n a s l a k u l l i s a f a b i l ʕ a r a b iː j a t i a b i q a r i h a",
+      "sha256": "093099b0be9fb78491e58af7c484c2ffd4ce75b8ef68152c3db6afcd3ddeebda",
+      "review": {
+        "tanween": "None.",
+        "caseEndings": "فنستخرجُ /dʒ u/; نصَّ ends in /a/; كلِّ /k u l l i/; بالعربيةِ /j a t i/.",
+        "waqf": "Pause after صفحةْ; final بغيرها retains the written long vowel."
+      }
+    },
+    {
+      "id": "download",
+      "seed": 1409,
+      "duration": 3.87,
+      "words": 7,
+      "speechSpanSeconds": 3.54,
+      "wordsPerSecond": 1.98,
+      "leadSeconds": 0.03,
+      "tailSeconds": 0.3,
+      "pauses": [],
+      "stt": "ثم نزله ملفًا نصيًا أو مستند Word",
+      "phonemes": "θ u m m a n a z i l h u m a l a f a n n a s iː j a n a m u s t a n a d a ɾ w ɔ d",
+      "sha256": "dce6e1e938df7e7e789c0924769dc55f163ea687ad2beaf9bb19b7ee60aeb2d0",
+      "review": {
+        "tanween": "ملفًّا /m a l a f a n/ and نصيًّا /n a s iː j a n/ both retain n.",
+        "caseEndings": "نزّله /h u/; مستندَ /m u s t a n a d a/.",
+        "waqf": "Word pronounced /w ɔ d/ and ends without an added case vowel."
+      }
+    },
+    {
+      "id": "free",
+      "seed": 1408,
+      "duration": 3.39,
+      "words": 7,
+      "speechSpanSeconds": 3.04,
+      "wordsPerSecond": 2.3,
+      "leadSeconds": 0.05,
+      "tailSeconds": 0.3,
+      "pauses": [],
+      "stt": "وكل ذلك مجانًا بلا حساب ولا تثبيت",
+      "phonemes": "w a k u l l u ð a l i k a m a dʒ aː n a n b i l a h i s a b i n w a l a t e θ b iː t",
+      "sha256": "59587e35978b01bc413c72fc9e47750fc00fc011458f5c12e437b63572a9b278",
+      "review": {
+        "tanween": "مجانًا /m a dʒ aː n a n/; حسابٍ /h i s a b i n/.",
+        "caseEndings": "وكلُّ /k u l l u/.",
+        "waqf": "تثبيتْ ends in /t/."
+      }
+    },
+    {
+      "id": "privacy",
+      "seed": 1410,
+      "duration": 3.0,
+      "words": 5,
+      "speechSpanSeconds": 2.66,
+      "wordsPerSecond": 1.88,
+      "leadSeconds": 0.04,
+      "tailSeconds": 0.3,
+      "pauses": [],
+      "stt": "ونحذف ملفك فور انتهاء الاستخراج",
+      "phonemes": "w a n a ħ ð iː f oː m a l a f a k a f aʊ r a i n t i h aː i l i s t i x r aː dʒ",
+      "sha256": "e13c67b6c25e0ca6d3482f64907c91c60b0c5bdd41cf79474a909bf6c6280044",
+      "review": {
+        "tanween": "None.",
+        "caseEndings": "نحذفُ /f oː/; ملفَّكَ /m a l a f a k a/; فورَ /f aʊ r a/; انتهاء /h aː i/.",
+        "waqf": "الاستخراجْ ends in /dʒ/, without a final vowel."
+      }
+    },
+    {
+      "id": "outro",
+      "seed": 1408,
+      "duration": 2.75,
+      "words": 4,
+      "speechSpanSeconds": 2.4,
+      "wordsPerSecond": 1.67,
+      "leadSeconds": 0.05,
+      "tailSeconds": 0.3,
+      "pauses": [
+        {
+          "start": 1.27,
+          "end": 1.49,
+          "seconds": 0.22,
+          "near": "أَدَوَاتُ الْعَرَبِيَّةْ | ، جَرِّبْهَا الْآنْ."
+        }
+      ],
+      "stt": "أدوات العربية، جربها الآن",
+      "phonemes": "a d a w a t u l aː r a b i a dʒ a r i b h a l a n",
+      "sha256": "d618239003f6ccb2c900ec39c97a6b68a6be0f523f3509b392b6e6e54e93e261",
+      "review": {
+        "tanween": "None.",
+        "caseEndings": "أدواتُ /a d a w a t u/.",
+        "waqf": "Real pause after العربيةْ; الآنْ ends in /n/."
+      }
+    }
+  ]
+}

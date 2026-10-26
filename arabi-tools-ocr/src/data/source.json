@@ -1,0 +1,16 @@
+{
+  "book": "تاريخ الرسل والملوك — الطبري",
+  "sourceFile": "ia-tarkhalrusulwaal01abaruoft.pdf",
+  "sourceUrl": "https://archive.org/details/tarkhalrusulwaal01abaruoft",
+  "sourceSha256": "f361796ea1e57b6d84f1f6cc9047da783a1faffe7f2ba0e45201184edb9371c4",
+  "sourcePagesOneBased": [
+    15,
+    16
+  ],
+  "sampleFile": "تاريخ-الطبري.pdf",
+  "sampleSha256": "0871bab1b141d39dcf7f90a64ce376179812a5ad63e9b22bf6df5a8cc6a61197",
+  "pageCount": 2,
+  "renderDpi": 200,
+  "note": "Two historical scanned pages rasterized into an image-only PDF; scan JPEGs are the exact embedded images. No source OCR layer is used.",
+  "rights": "Historical edition before 1921; public-domain status inferred from age, as recorded in the fleet corpus MANIFEST.md."
+}

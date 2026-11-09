@@ -1,0 +1,94 @@
+{
+  "voice": {
+    "id": "rPNcQ53R703tTmtue1AT",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.8
+    },
+    "seed": 2024,
+    "name": "Mazen Lawand – Deep & Professional (ElevenLabs library, Modern Standard Arabic)",
+    "language": "ar"
+  },
+  "take": "one continuous take of every line, split at the pauses (scripts/gen_take.py)",
+  "clips": [
+    {
+      "id": "hook",
+      "text": "فتحتَ هاتفك لدقيقة… فضاعت ساعة.",
+      "caption": "فتحتَ هاتفك لدقيقة… فضاعت ساعة."
+    },
+    {
+      "id": "turn1",
+      "text": "ماذا لو كان ما تشاهده يبقى معك؟",
+      "caption": "ماذا لو كان ما تشاهده يبقى معك؟"
+    },
+    {
+      "id": "turn2",
+      "text": "هذا مُفيد.",
+      "caption": "هذا مُفيد."
+    },
+    {
+      "id": "easy1",
+      "text": "افتحهُ وابدأ المشاهدة فورًا،",
+      "caption": "افتحهُ وابدأ المشاهدة فورًا،",
+      "patch_seed": 2024
+    },
+    {
+      "id": "easy2",
+      "text": "بلا حساب ولا تسجيل.",
+      "caption": "بلا حساب ولا تسجيل."
+    },
+    {
+      "id": "easy3",
+      "text": "اسحب للأعلى… لفائدة جديدة.",
+      "caption": "اسحب للأعلى… لفائدة جديدة."
+    },
+    {
+      "id": "curated1",
+      "text": "كل مقطع مختار بعناية.",
+      "caption": "كل مقطع مختار بعناية."
+    },
+    {
+      "id": "curated2",
+      "text": "مُحْتَوَنْ نَظِيفْ، خالٍ من المحرّمات.",
+      "caption": "مُحتوًى نظيف، خالٍ من المحرّمات.",
+      "patch_seed": 2024
+    },
+    {
+      "id": "reminder",
+      "text": "وبين المقاطع، وقفة للتذكير: آية أو حديث، يعيدك إلى ما يهم.",
+      "caption": "وبين المقاطع، وقفة للتذكير: آية أو حديث، يعيدك إلى ما يهم."
+    },
+    {
+      "id": "session1",
+      "text": "ولكل جلسة نهاية.",
+      "caption": "ولكل جلسة نهاية."
+    },
+    {
+      "id": "session2",
+      "text": "حين ينتهي وقتك، يقول لك مُفيد: حان وقت التوقّف.",
+      "caption": "حين ينتهي وقتك، يقول لك مُفيد: حان وقت التوقّف."
+    },
+    {
+      "id": "session3",
+      "text": "ثم عُد إلى يومك.",
+      "caption": "ثم عُد إلى يومك."
+    },
+    {
+      "id": "free",
+      "text": "مجاني بالكامل، وبلا إعلانات، وبلا حساب.",
+      "caption": "مجانيٌّ بالكامل، وبلا إعلانات، وبلا حساب.",
+      "patch_seed": 2024
+    },
+    {
+      "id": "cta1",
+      "text": "حمّل مُفيد الآن من آب ستور، وجوجل بلاي، وآب غاليري.",
+      "caption": "حمّل مُفيد الآن من App Store وGoogle Play وAppGallery."
+    },
+    {
+      "id": "cta2",
+      "text": "أو شاهده مباشرة على مُفيد دوت كوم.",
+      "caption": "أو شاهده مباشرة على mofied.com"
+    }
+  ]
+}

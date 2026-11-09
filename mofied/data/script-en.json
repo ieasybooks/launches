@@ -1,0 +1,92 @@
+{
+  "voice": {
+    "id": "rPNcQ53R703tTmtue1AT",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.8
+    },
+    "seed": 2024,
+    "name": "Mazen Lawand – Deep & Professional (ElevenLabs library, Arabic–English bilingual)",
+    "language": "en"
+  },
+  "take": "one continuous take of every line, split at the pauses (scripts/gen_take.py)",
+  "clips": [
+    {
+      "id": "hook",
+      "text": "You opened your phone for a minute… and lost an hour.",
+      "caption": "You opened your phone for a minute… and lost an hour."
+    },
+    {
+      "id": "turn1",
+      "text": "What if what you watched stayed with you?",
+      "caption": "What if what you watched stayed with you?"
+    },
+    {
+      "id": "turn2",
+      "text": "This is مُفيد.",
+      "caption": "This is Mofied."
+    },
+    {
+      "id": "easy1",
+      "text": "Open it, and you're watching right away,",
+      "caption": "Open it, and you're watching right away,"
+    },
+    {
+      "id": "easy2",
+      "text": "no account, no sign-up.",
+      "caption": "no account, no sign-up."
+    },
+    {
+      "id": "easy3",
+      "text": "Swipe up… for something new and beneficial.",
+      "caption": "Swipe up… for something new and beneficial."
+    },
+    {
+      "id": "curated1",
+      "text": "Every clip is carefully chosen.",
+      "caption": "Every clip is carefully chosen."
+    },
+    {
+      "id": "curated2",
+      "text": "Clean content, nothing haram.",
+      "caption": "Clean content, nothing haram."
+    },
+    {
+      "id": "reminder",
+      "text": "And between clips, a pause to remember: a verse or a hadith that brings you back to what matters.",
+      "caption": "And between clips, a pause to remember: a verse or a hadith that brings you back to what matters."
+    },
+    {
+      "id": "session1",
+      "text": "And every session has an end.",
+      "caption": "And every session has an end."
+    },
+    {
+      "id": "session2",
+      "text": "When your time is up, مُفيد tells you: it's time for a pause.",
+      "caption": "When your time is up, Mofied tells you: it's time for a pause."
+    },
+    {
+      "id": "session3",
+      "text": "Then get back to your day.",
+      "caption": "Then get back to your day."
+    },
+    {
+      "id": "free",
+      "text": "Completely free, no ads, no account.",
+      "caption": "Completely free, no ads, no account.",
+      "patch_seed": 2024
+    },
+    {
+      "id": "cta1",
+      "text": "Get مُفيد now on the App Store, Google Play and AppGallery.",
+      "caption": "Get Mofied now on the App Store, Google Play and AppGallery."
+    },
+    {
+      "id": "cta2",
+      "text": "Or watch it right away at Mu-feed dot com.",
+      "caption": "Or watch it right away at mofied.com"
+    }
+  ]
+}

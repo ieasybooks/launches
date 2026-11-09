@@ -1,0 +1,89 @@
+{
+  "model": "eleven_text_to_sound_v3",
+  "sfx": {
+    "flick": {
+      "prompt": "a single quick finger flick swiping across a smartphone glass screen, soft airy swish, close and dry, no beep, no music",
+      "seconds": 0.5,
+      "prompt_influence": 0.6,
+      "loop": false
+    },
+    "swipe": {
+      "prompt": "one soft airy whoosh of a finger swiping up on a phone screen, subtle and smooth, close, no beep, no music",
+      "seconds": 0.8,
+      "prompt_influence": 0.55,
+      "loop": false
+    },
+    "tap": {
+      "prompt": "a soft muted fingertip tap on a glass phone screen, close microphone, dry, no click, no beep",
+      "seconds": 0.5,
+      "prompt_influence": 0.6,
+      "loop": false
+    },
+    "breath": {
+      "prompt": "a single soft breath of air, like a heavy paper page settling onto a desk, warm and intimate, no music, no tone",
+      "seconds": 1.5,
+      "prompt_influence": 0.5,
+      "loop": false
+    },
+    "room": {
+      "prompt": "quiet early morning room by an open window, faint distant birds, light breeze, calm, no voices, no music, no traffic",
+      "seconds": 22.0,
+      "prompt_influence": 0.45,
+      "loop": true
+    },
+    "cards": {
+      "prompt": "light rustle of paper cards being sorted and set down on a wooden table, gentle and unhurried, close, no music",
+      "seconds": 2.5,
+      "prompt_influence": 0.5,
+      "loop": false
+    },
+    "card": {
+      "prompt": "a single small paper card placed softly onto a wooden table, close, short",
+      "seconds": 0.5,
+      "prompt_influence": 0.6,
+      "loop": false
+    },
+    "tick": {
+      "prompt": "a single soft wooden clock tick, close and dry, short, no bell, no chime, no ring",
+      "seconds": 0.5,
+      "prompt_influence": 0.6,
+      "loop": false
+    },
+    "wind": {
+      "prompt": "a gentle gust of wind through an open window that fades into stillness, soft and airy, no music, no tone",
+      "seconds": 3.0,
+      "prompt_influence": 0.45,
+      "loop": false
+    },
+    "paper": {
+      "prompt": "a single sheet of thick paper placed softly onto a desk, close, short",
+      "seconds": 0.6,
+      "prompt_influence": 0.55,
+      "loop": false
+    },
+    "whoosh": {
+      "prompt": "slow soft air whoosh passing by, warm and smooth, no music, no tones",
+      "seconds": 1.6,
+      "prompt_influence": 0.5,
+      "loop": false
+    },
+    "thud": {
+      "prompt": "a heavy hardcover book closed firmly on a wooden table, one deep soft thud, close, short, no ring",
+      "seconds": 0.8,
+      "prompt_influence": 0.6,
+      "loop": false
+    },
+    "zip": {
+      "prompt": "a fast sharp air whoosh passing close by, quick and clean, no tone, no beep",
+      "seconds": 0.6,
+      "prompt_influence": 0.6,
+      "loop": false
+    },
+    "rush": {
+      "prompt": "a rush of wind building up quickly then cut off, airy, no tone, no music",
+      "seconds": 1.5,
+      "prompt_influence": 0.5,
+      "loop": false
+    }
+  }
+}

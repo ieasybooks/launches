@@ -1,0 +1,108 @@
+{
+  "source": "Live Faqieh session API (https://faqieh.com/api/v1/mofied/session), fetched 9 November 2026. Text is unedited.",
+  "policy": {
+    "maxActiveMs": 1200000,
+    "limitBehavior": "finish-current-item",
+    "maxConsecutiveFailures": 3
+  },
+  "media": [
+    {
+      "id": "106478",
+      "role": "open",
+      "title": "كيف غيّر القرآن حياتي؟",
+      "speaker": "محمد حسين يعقوب",
+      "durationMs": 57000,
+      "clipOffset": 4.2,
+      "file": "media/clip-106478.mp4",
+      "portrait": "images/portraits/106478.jpg",
+      "page": "https://faqieh.com/ar/media/106478"
+    },
+    {
+      "id": "2047",
+      "role": "swipe",
+      "title": "كلمة تغرسها اليوم قد تُنقذه بعد  سنوات",
+      "speaker": "إياد قنيبي",
+      "durationMs": 41000,
+      "clipOffset": 0.5,
+      "file": "media/clip-2047.mp4",
+      "portrait": "images/portraits/2047.jpg",
+      "page": "https://faqieh.com/ar/media/2047"
+    },
+    {
+      "id": "58197",
+      "role": "swipe",
+      "title": "يا أهل الخير.. استبقوا أنفسكم | أحمد السيد",
+      "speaker": "أحمد السيد",
+      "durationMs": 43000,
+      "clipOffset": 0.3,
+      "file": "media/clip-58197.mp4",
+      "portrait": "images/portraits/58197.jpg",
+      "page": "https://faqieh.com/ar/media/58197"
+    },
+    {
+      "id": "125605",
+      "role": "session",
+      "title": "ليكن لك عظةٌ في كل شيء حولك .",
+      "speaker": "ماهر ياسين الفحل",
+      "durationMs": 58000,
+      "clipOffset": 3.0,
+      "file": "media/clip-125605.mp4",
+      "portrait": "images/portraits/125605.jpg",
+      "page": "https://faqieh.com/ar/media/125605"
+    }
+  ],
+  "wall": [
+    {
+      "id": "58197",
+      "title": "يا أهل الخير.. استبقوا أنفسكم | أحمد السيد",
+      "speaker": "أحمد السيد",
+      "frame": "images/frames/frame-58197.jpg"
+    },
+    {
+      "id": "5704",
+      "title": "حقيقة الدّنيا  #shorts",
+      "speaker": "سعيد الكملي",
+      "frame": "images/frames/frame-5704.jpg"
+    },
+    {
+      "id": "125605",
+      "title": "ليكن لك عظةٌ في كل شيء حولك .",
+      "speaker": "ماهر ياسين الفحل",
+      "frame": "images/frames/frame-125605.jpg"
+    },
+    {
+      "id": "145476",
+      "title": "4 كتب لا مثيل لها",
+      "speaker": "راغب السرجاني",
+      "frame": "images/frames/frame-145476.jpg"
+    }
+  ],
+  "reminder": {
+    "ar": {
+      "id": "reminder-sad-38-29-29",
+      "durationMs": 20000,
+      "kind": "quran",
+      "body": "كِتَٰبٌ أَنزَلْنَٰهُ إِلَيْكَ مُبَٰرَكٌۭ لِّيَدَّبَّرُوٓا۟ ءَايَٰتِهِۦ وَلِيَتَذَكَّرَ أُو۟لُوا۟ ٱلْأَلْبَٰبِ ﴿٢٩﴾",
+      "citation": "سورة ص · الآية ٢٩",
+      "source": "Tanzil Project, https://tanzil.net, CC BY 3.0; English: Saheeh International"
+    },
+    "en": {
+      "id": "reminder-al-furqan-25-62-62",
+      "durationMs": 20000,
+      "kind": "quran",
+      "body": "And it is He who has made the night and the day in succession for whoever desires to remember or desires gratitude.",
+      "citation": "Al-Furqan 25:62",
+      "source": "Tanzil Project, https://tanzil.net, CC BY 3.0; English: Saheeh International"
+    }
+  },
+  "ending": {
+    "ar": {
+      "title": "حان وقت التوقّف",
+      "body": "خذ لحظةً للتفكر، ثم اعمل بشيء مما تعلّمته؛ بصلاة، أو مساعدة أحد، أو نشر فائدة."
+    },
+    "en": {
+      "title": "Time for a pause",
+      "body": "Take a moment to reflect, then put something you learned into practice — pray, help someone, or share a benefit."
+    }
+  }
+}

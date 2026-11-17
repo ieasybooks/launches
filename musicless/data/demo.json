@@ -1,0 +1,6 @@
+{
+  "about": "The real before/after in the demo: seconds of the source video (footage/largest-star-<lang>.mp4, the first 45 s of Kurzgesagt's \"The Largest Star in the Universe\" and its Arabic upload). It plays with its own sound from a0 to cut, waits `wait` seconds while Musicless removes the music, then plays from cut to b1 with the music removed by Musicless's own model (scripts/prepare_demo.py). The stretch is Earth to Jupiter, where the music is about as loud as the voice; cut and b1 fall in the narrator's pauses.",
+  "wait": 1.0,
+  "en": { "a0": 17.75, "cut": 24.1, "b1": 27.7 },
+  "ar": { "a0": 17.6, "cut": 25.3, "b1": 27.7 }
+}

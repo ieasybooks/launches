@@ -1,0 +1,65 @@
+{
+  "model": "eleven_text_to_sound_v3",
+  "sfx": {
+    "click": {
+      "prompt": "a single crisp computer mouse click, close microphone, dry, short, no beep",
+      "seconds": 0.5,
+      "prompt_influence": 0.7,
+      "loop": false
+    },
+    "snap": {
+      "prompt": "a crisp dry snap of a thin wooden stick breaking in two, close, short, no ring, no tone",
+      "seconds": 0.6,
+      "prompt_influence": 0.65,
+      "loop": false
+    },
+    "scatter": {
+      "prompt": "a handful of small light plastic pieces falling and scattering onto a wooden table, short and bright, no music",
+      "seconds": 1.2,
+      "prompt_influence": 0.55,
+      "loop": false
+    },
+    "thud": {
+      "prompt": "a heavy hardcover book closed firmly on a wooden table, one deep soft thud, close, short, no ring",
+      "seconds": 0.8,
+      "prompt_influence": 0.6,
+      "loop": false
+    },
+    "whoosh": {
+      "prompt": "slow soft air whoosh passing by, warm and smooth, no music, no tones",
+      "seconds": 1.2,
+      "prompt_influence": 0.5,
+      "loop": false
+    },
+    "zip": {
+      "prompt": "a fast sharp air whoosh passing close by, quick and clean, no tone, no beep",
+      "seconds": 0.6,
+      "prompt_influence": 0.6,
+      "loop": false
+    },
+    "card": {
+      "prompt": "a single small paper card placed softly onto a wooden table, close, short",
+      "seconds": 0.5,
+      "prompt_influence": 0.6,
+      "loop": false
+    },
+    "pop": {
+      "prompt": "a soft dull pop of a small paper bag, close and dry, short, no tone, no squeak",
+      "seconds": 0.5,
+      "prompt_influence": 0.6,
+      "loop": false
+    },
+    "type": {
+      "prompt": "fast light typing on a laptop keyboard, eight soft keystrokes, close, dry, no beep",
+      "seconds": 1.2,
+      "prompt_influence": 0.6,
+      "loop": false
+    },
+    "air": {
+      "prompt": "very quiet calm room tone, soft air, no hum, no voices, no music, no birds, no traffic",
+      "seconds": 20.0,
+      "prompt_influence": 0.45,
+      "loop": true
+    }
+  }
+}

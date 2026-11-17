@@ -1,0 +1,120 @@
+{
+  "voice": {
+    "id": "rPNcQ53R703tTmtue1AT",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.8
+    },
+    "seed": 2024,
+    "tag": "[speaking quickly]",
+    "name": "Mazen Lawand – Deep & Professional (ElevenLabs library, Arabic–English bilingual)",
+    "language": "en"
+  },
+  "clips": [
+    {
+      "id": "hook1",
+      "text": "What if you could remove the music from YouTube videos…",
+      "caption": "What if you could remove the music from YouTube videos…"
+    },
+    {
+      "id": "hook2",
+      "text": "and keep the voices?",
+      "caption": "and keep the voices?"
+    },
+    {
+      "id": "meet",
+      "text": "Now you can, with Musicless.",
+      "caption": "Now you can, with Musicless."
+    },
+    {
+      "id": "why1",
+      "text": "Lectures, documentaries, lessons, even recipes. So much of YouTube comes with music.",
+      "caption": "Lectures, documentaries, lessons, even recipes. So much of YouTube comes with music."
+    },
+    {
+      "id": "why2",
+      "text": "Musicless helps you avoid listening to music, and hear every word clearly.",
+      "caption": "Musicless helps you avoid listening to music, and hear every word clearly.",
+      "patch_seed": 2029
+    },
+    {
+      "id": "easy1",
+      "text": "Setting it up takes three clicks.",
+      "caption": "Setting it up takes three clicks."
+    },
+    {
+      "id": "easy2",
+      "text": "Find Musicless on the Chrome Web Store, and click Add to Chrome.",
+      "caption": "Find Musicless on the Chrome Web Store, and click Add to Chrome."
+    },
+    {
+      "id": "easy3",
+      "text": "Then Add extension.",
+      "caption": "Then Add extension."
+    },
+    {
+      "id": "easy4",
+      "text": "And Turn on Musicless. Done!",
+      "caption": "And Turn on Musicless. Done!"
+    },
+    {
+      "id": "demo1",
+      "text": "Let's hear the difference. Here's a video with music.",
+      "caption": "Let's hear the difference. Here's a video with music.",
+      "patch_seed": 2024
+    },
+    {
+      "id": "demo2",
+      "text": "The music is gone, and the voices stay. Want the original sound? Just click the icon again.",
+      "caption": "The music is gone, and the voices stay. Want the original sound? Just click the icon again.",
+      "patch_seed": 2024
+    },
+    {
+      "id": "diff",
+      "text": "Here's why you'll love it.",
+      "caption": "Here's why you'll love it."
+    },
+    {
+      "id": "every",
+      "text": "It works on every video, even Shorts and live streams.",
+      "caption": "It works on every video, even Shorts and live streams.",
+      "patch_seed": 2031
+    },
+    {
+      "id": "free",
+      "text": "It's completely free. No account, no ads.",
+      "caption": "It's completely free. No account, no ads."
+    },
+    {
+      "id": "offline",
+      "text": "It works offline, right on your computer. Nothing is ever uploaded.",
+      "caption": "It works offline, right on your computer. Nothing is ever uploaded."
+    },
+    {
+      "id": "light",
+      "text": "It's light. It runs on an ordinary laptop, no graphics card needed.",
+      "caption": "It's light. It runs on an ordinary laptop, no graphics card needed."
+    },
+    {
+      "id": "install",
+      "text": "There's nothing else to install. Just the extension.",
+      "caption": "There's nothing else to install. Just the extension."
+    },
+    {
+      "id": "os",
+      "text": "And it works on Windows, Mac, Linux and Chrome OS.",
+      "caption": "And it works on Windows, Mac, Linux and ChromeOS."
+    },
+    {
+      "id": "stores",
+      "text": "Get Musicless free on the Chrome Web Store and Firefox Add-ons.",
+      "caption": "Get Musicless free on the Chrome Web Store and Firefox Add-ons."
+    },
+    {
+      "id": "cta",
+      "text": "Install it now, and watch YouTube without the music.",
+      "caption": "Install it now, and watch YouTube without the music."
+    }
+  ]
+}

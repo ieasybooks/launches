@@ -17,8 +17,11 @@ Launch films for ieasybooks products, built with [Remotion](https://www.remotion
 - [Musicless](musicless/README.md): the launch film for Musicless (بلا موسيقى), the browser extension that removes
   most of the music from YouTube videos and keeps the voices, in English and Arabic at 60 fps in 16:9, 9:16 and
   4:5, with no music.
+- [Shawared](shawared/README.md): the launch film for شوارد, Arabic poetry as it is recited, in Arabic and English
+  at 60 fps in 9:16, 4:5 and 16:9: a real recitation, the live app recorded state by state and redrawn on an
+  iPhone, and no music.
 
-The launch films render in 16:9 and 9:16 (Musicless also in 4:5), the setup film in 16:9. Each directory is a self-contained project with
+The launch films render in 16:9 and 9:16 (Musicless and Shawared also in 4:5), the setup film in 16:9. Each directory is a self-contained project with
 its own dependencies, scripts, narration, demo data and assets. The launch films' original Git histories are
 preserved.
 
@@ -29,7 +32,7 @@ Requires Node 20+, ffmpeg and Python 3 with [uv](https://docs.astral.sh/uv/).
 From the repository root, choose a film:
 
 ```sh
-cd aljam3-desktop # or aljam3-mcp, aljam3-mcp-setup, arabi-tools, arabi-tools-ocr, arabi-tools-tashkeel, mofied, musicless
+cd aljam3-desktop # or aljam3-mcp, aljam3-mcp-setup, arabi-tools, arabi-tools-ocr, arabi-tools-tashkeel, mofied, musicless, shawared
 npm ci
 npm run studio
 ```

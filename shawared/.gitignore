@@ -1,0 +1,7 @@
+node_modules/
+out/
+audio/vo_clean/
+__pycache__/
+capture/png/
+.env
+.DS_Store

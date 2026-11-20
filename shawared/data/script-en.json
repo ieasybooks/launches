@@ -1,0 +1,88 @@
+{
+  "voice": {
+    "id": "rPNcQ53R703tTmtue1AT",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.8
+    },
+    "seed": 2024,
+    "name": "Mazen Lawand – Deep & Professional (ElevenLabs library, Arabic–English bilingual)",
+    "language": "en"
+  },
+  "take": "one continuous take of every line, split at the pauses (scripts/gen_take.py)",
+  "clips": [
+    {
+      "id": "read",
+      "text": "Read this line…",
+      "caption": "Read this line…"
+    },
+    {
+      "id": "listen",
+      "text": "now hear it.",
+      "caption": "now hear it."
+    },
+    {
+      "id": "age",
+      "text": "Quoted for over a thousand years.",
+      "caption": "Quoted for over a thousand years."
+    },
+    {
+      "id": "ask",
+      "text": "But do you know what it says?",
+      "caption": "But do you know what it says?"
+    },
+    {
+      "id": "brand",
+      "text": "This is شَوارِد: Arabic poetry, as it's recited.",
+      "caption": "This is Shawared: Arabic poetry, as it's recited."
+    },
+    {
+      "id": "hear",
+      "text": "Hear each poem in its reciter's voice, and follow every verse as it's recited.",
+      "caption": "Hear each poem in its reciter's voice, and follow every verse as it's recited."
+    },
+    {
+      "id": "tap",
+      "text": "Tap a word for its meaning, a verse for its explanation.",
+      "caption": "Tap a word for its meaning, a verse for its explanation."
+    },
+    {
+      "id": "meaning",
+      "text": "Mahaa: the oryx, whose wide dark eyes the poets gave to the women they loved.",
+      "caption": "Maha: the oryx, whose wide dark eyes the poets gave to the women they loved.",
+      "patch_seed": 2025
+    },
+    {
+      "id": "poets1",
+      "text": "From Imru' al-Qays to Ahmad Shawqi:",
+      "caption": "From Imru' al-Qays to Ahmad Shawqi:"
+    },
+    {
+      "id": "poets2",
+      "text": "browse by poet and reciter.",
+      "caption": "browse by poet and reciter."
+    },
+    {
+      "id": "night2",
+      "text": "Download any poem to listen offline.",
+      "caption": "Download any poem to listen offline.",
+      "patch_seed": 2024
+    },
+    {
+      "id": "free",
+      "text": "Completely free. No ads. No account.",
+      "caption": "Completely free. No ads. No account."
+    },
+    {
+      "id": "cta1",
+      "text": "Get شَوارِد now on the App Store, Google Play and AppGallery.",
+      "caption": "Get Shawared now on the App Store, Google Play and AppGallery."
+    },
+    {
+      "id": "cta2",
+      "text": "Or listen at شَوارِد dot com.",
+      "caption": "Or listen at shawared.com"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "voice": {
+    "id": "rPNcQ53R703tTmtue1AT",
+    "model": "eleven_v4",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.8
+    },
+    "seed": 2024,
+    "tag": "[speaking quickly]",
+    "name": "Mazen Lawand – Deep & Professional (ElevenLabs library, Arabic–English bilingual)",
+    "language": "en"
+  },
+  "clips": [
+    {
+      "id": "hook1",
+      "text": "Have a lecture, a podcast or an audiobook with music in it?",
+      "caption": "Have a lecture, a podcast or an audiobook with music in it?"
+    },
+    {
+      "id": "hook2",
+      "text": "Now you can remove the music from your audio files too, right on the Musicless website.",
+      "caption": "Now you can remove the music from your audio files too, right on the Musicless website."
+    },
+    {
+      "id": "site1",
+      "text": "Tap Audio files, and choose an MP3 or M4A file.",
+      "caption": "Tap Audio files, and choose an MP3 or M4A file."
+    },
+    {
+      "id": "site2",
+      "text": "Then tap Remove music.",
+      "caption": "Then tap Remove music."
+    },
+    {
+      "id": "local",
+      "text": "It all happens on your device, and your file is never uploaded.",
+      "caption": "It all happens on your device, and your file is never uploaded."
+    },
+    {
+      "id": "demo1",
+      "text": "Let's hear the original.",
+      "caption": "Let's hear the original."
+    },
+    {
+      "id": "diff",
+      "text": "The music is gone, and the voices stay.",
+      "caption": "The music is gone, and the voices stay."
+    },
+    {
+      "id": "save",
+      "text": "Then download it, in the same format.",
+      "caption": "Then download it, in the same format."
+    },
+    {
+      "id": "free",
+      "text": "It's free, with no account and nothing to install, and it works on desktop and mobile.",
+      "caption": "It's free, with no account and nothing to install, and it works on desktop and mobile.",
+      "patch_seed": 2027
+    },
+    {
+      "id": "cta",
+      "text": "Try it now on the Musicless website.",
+      "caption": "Try it now on the Musicless website."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "note": "The demo file: the first 2:30 of the video's audio from the narrator's pause before 'The smallest things…' (EN 17.75 s, AR 17.6 s of the upload), as MP3 (192 kbps stereo). Original from 0 to cut, then the site's own output (the 'Music removed' preview) from cut to end. Times in file seconds; cuts fall in the narrator's pauses (Scribe words on the site's output).",
+  "en": { "name": "The Largest Star in the Universe.mp3", "size": 3601806, "duration": 150.0, "cut": 6.23, "end": 10.05 },
+  "ar": { "name": "النجم الأكبر في الكون.mp3", "size": 3601806, "duration": 150.0, "cut": 6.25, "end": 10.15 }
+}
